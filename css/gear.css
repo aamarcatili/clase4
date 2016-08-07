@@ -1,0 +1,67 @@
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.grande1 {
+    font-size: 250px;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+.grande {
+	font-size: 230px;
+	animation-name:spin;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+	display: inline-block;
+	position: relative;
+	top: 93px;
+    left: -104px;
+}
+.mediano1 {
+	font-size: 170px;
+	animation-name:spin;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+	display: inline-block;
+	position: relative;
+    top: 200px;
+    left: 281px;
+
+}
+.mediano {
+    font-size: 150px;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+    position: relative;
+    top: 273px;
+    left: -3px;	
+}
+
+.chico{
+	font-size: 120px;
+	animation-name:spin;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-timing-function: linear;
+	display: inline-block;
+	position: relative;
+    top: 23px;
+    left: 38px;
+}
+
